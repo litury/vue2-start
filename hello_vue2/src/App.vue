@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <Rectangle/>
-    <Rectangle/>
+    <Posts/>
+    <Posts/>
+    <Posts/>
+    <Posts/>
   </div>
 </template>
 
 <script>
-import Rectangle from './components/Rectangle.vue'
+import Posts from './components/Posts.vue'
 
 export default {
   name: 'App',
   components: {
-    Rectangle
+    Posts
   }
 }
 </script>
